@@ -9,7 +9,7 @@ while True:
     cv2.imshow("Capture from Webcam", frame)
 
     # ASCII code for the Escape key is 27. 
-    if cv2.waitKey(1) == 27;
+    if cv2.waitKey(1) == 27:
         break
 
 # Release the capture and destroy all windows. 
